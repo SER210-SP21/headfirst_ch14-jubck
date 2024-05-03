@@ -1,11 +1,16 @@
 package com.hfad.tasks
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
+import com.hfad.tasks.TaskDatabase
+import com.hfad.tasks.TasksViewModel
+import com.hfad.tasks.TasksViewModelFactory
 import com.hfad.tasks.databinding.FragmentTasksBinding
+
 
 class TasksFragment : Fragment() {
     private var _binding: FragmentTasksBinding? = null
