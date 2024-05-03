@@ -1,8 +1,3 @@
-/*
- @author Charlize Aponte
- Date: 04/3/24
- Assignment: Chapter 14 demo
- */
 package com.hfad.tasks
 
 import androidx.appcompat.app.AppCompatActivity
